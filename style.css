@@ -15,12 +15,12 @@ body {
     height: 100vh;
 }
 
-/* Header (Instagram logo) */
+
 header img {
     margin-bottom: 20px;
 }
 
-/* Main form container */
+
 #one {
     background-color: #fff;
     border: 1px solid #dbdbdb;
@@ -31,7 +31,7 @@ header img {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Form heading */
+
 #one big {
     font-size: 20px;
     font-weight: 600;
@@ -40,7 +40,7 @@ header img {
     margin-bottom: 25px;
 }
 
-/* Input fields */
+
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -57,7 +57,7 @@ input:focus {
     border-color: #a8a8a8;
 }
 
-/* Login button */
+
 button {
     width: 100%;
     padding: 10px;
@@ -75,7 +75,7 @@ button:hover {
     background-color: #007cd1;
 }
 
-/* Forgot password text */
+
 form div:nth-child(5) {
     font-size: 13px;
     color: #00376b;
@@ -83,7 +83,7 @@ form div:nth-child(5) {
     cursor: pointer;
 }
 
-/* Facebook login button */
+
 form div:nth-child(6) button {
     background-color: #385185;
 }
@@ -92,7 +92,7 @@ form div:nth-child(6) button:hover {
     background-color: #31497b;
 }
 
-/* Create account button */
+
 form div:nth-child(7) button {
     background-color: #42b72a;
 }
@@ -101,7 +101,7 @@ form div:nth-child(7) button:hover {
     background-color: #369e23;
 }
 
-/* Small responsive design */
++
 @media (max-width: 400px) {
     #one {
         width: 90%;

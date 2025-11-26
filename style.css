@@ -1,0 +1,114 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header (Instagram logo) */
+header img {
+    margin-bottom: 20px;
+}
+
+/* Main form container */
+#one {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Form heading */
+#one big {
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    display: block;
+    margin-bottom: 25px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #a8a8a8;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #007cd1;
+}
+
+/* Forgot password text */
+form div:nth-child(5) {
+    font-size: 13px;
+    color: #00376b;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Facebook login button */
+form div:nth-child(6) button {
+    background-color: #385185;
+}
+
+form div:nth-child(6) button:hover {
+    background-color: #31497b;
+}
+
+/* Create account button */
+form div:nth-child(7) button {
+    background-color: #42b72a;
+}
+
+form div:nth-child(7) button:hover {
+    background-color: #369e23;
+}
+
+/* Small responsive design */
+@media (max-width: 400px) {
+    #one {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+.two{
+    width: 20px;
+}
